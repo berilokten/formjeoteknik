@@ -1,0 +1,30 @@
+.hizmetlerimiz-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #EDF8FF;
+}
+
+.hizmetlerimiz-category-wrapper {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 134px;
+}
+.hizmetlerimiz-category {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   .hizmetlerimiz-image img {
+      width: 228px;
+      height: 260px;
+   }
+   .hizmetlerimiz-subtitle {
+      font-size: 22px;
+      max-width: 265px;
+      margin: 58px 0px 31px calc((100% - 215px) * 0.5);
+   }
+}
+.hizmetlerimiz-subtext {
+   color: #0a1551;
+   margin-top: auto;
+}

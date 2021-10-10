@@ -1,0 +1,188 @@
+body {
+  background-color: $white-color;
+  color: $main-color;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-container {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.main-title {
+  font-family: $headingFont;
+  text-align: center;
+  color: #032b70;
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 134px auto;
+  &.iletisim-title {
+    margin: 74px;
+    text-align: left;
+  }
+}
+.section {
+  padding: 15rem 0;
+}
+.about-us-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white-color;
+  text-align: center;
+  .about-us-content {
+    padding: 1.8rem 3.6rem 3.6rem;
+  }
+}
+.faaliyetlerimiz {
+  .calisma-alanlarimiz-wrapper {
+    text-align: center;
+    background-color: #efeff3;
+    margin-bottom: 4rem;
+    max-width: 1490px;
+    img{
+      max-width: 1490px;
+      width: 100%;
+    }
+    .hizmetlerimiz-subtext {
+      margin: 58px 0px 31px calc((100% - 980px) * 0.5);
+      font-size: 22px;
+    }
+    .date {
+      position: relative;
+      margin: 0px 0px 70px calc((100% - 980px) * 0.5);
+    }
+  }
+}
+.calisma-alanlarimiz-headding {
+  text-align: center;
+  line-height: 1.75em;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.headding-text {
+  font-size: 2.6rem;
+  font-weight: 600;
+  position: absolute;
+  top: 7rem;
+}
+
+.border-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: .2rem solid $main-color;
+  max-width: 85rem;
+}
+
+.transform-text {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(3rem);
+}
+.main-headding {
+  font-family: $headingFont;
+  @include HorCenter;
+  top: -6rem;
+  background: $white-color;
+  padding: 1rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.contact-us-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 7.5rem 6.4rem 15rem;
+}
+
+.footer {
+  background-color: $white-color;
+  color: $header-bg-scroll-color;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  padding: 1.6rem 6.4rem;
+}
+.au-values-wrapper {
+  background-color: #efeff3;
+  display: flex;
+  padding: 15rem 6.4rem 7.5rem;
+  .au-values {
+    max-width: 980;
+    margin: 0 auto;
+  }
+}
+
+.au-values-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 45rem;
+}
+.au-values-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  .au-values-main-heading {
+    font-family: $headingFont;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .au-values-main-subheading {
+    color: rgba(216, 216, 216, 0.7);
+  }
+}
+
+.au-value {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  .au-values-heading {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+}
+
+.calisma-alanlarimiz-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1031px;
+  width: 100%;
+  margin: 0 auto;
+}
+.calisma-alanlarimiz {
+  background-color: #efeff3;
+  line-height: 1.9em;
+  text-align: center;
+  font-size: 22px;
+  padding: 70px 120px;
+}
+
+.iletisim-subtext {
+  line-height: 1.875em;
+  font-size: 15px;
+  font-weight: 700;
+}
+.iletisim-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  * {
+    margin-bottom: 2.4rem;
+  }
+  .ofis-subtitle {
+    font-weight: 700;
+  }
+}
+.iletisim-content {
+  display: flex;
+  flex-direction: column;
+}

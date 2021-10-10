@@ -1,0 +1,68 @@
+/* Form Footer - Start */
+
+.formFooter-heightMask { height: 56px; }
+
+.formFooter {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 em(14px);
+  background-color: #414247;
+  z-index: 2;
+}
+
+.formFooter-wrapper {
+  display: flex;
+  align-items: center;
+  &.formFooter-leftSide {
+    margin-right: auto;
+  }
+}
+.formFooter-content {
+  display: flex;
+  align-items: center;
+}
+.formFooter-logo {
+  display: flex;
+  max-width: 132px;
+}
+.formFooter-rightSide {
+  margin-left: em(8px);
+  .formFooter-text {
+    color: #bfbfbf;
+    font-size: em(12);
+    margin-right: em(15);
+  }
+}
+
+
+.formFooter-button {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 200px;
+  padding: em(10) 0;
+  border-radius: 3px;
+  font-size: em(14);
+  transition: background-color .3s;
+}
+
+.branding21 {
+  .formFooter {
+    font-family: "Circular Std", sans-serif;
+    background-color: #0A1551;
+    .formFooter-logo {
+      height: 44px;
+    }
+    .formFooter-text {
+      color: #F3F3FE;
+    }
+    .formFooter-button {
+      background-color: #78BB07;
+      border-color: #78BB07;
+    }
+  }
+}
